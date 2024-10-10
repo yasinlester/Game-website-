@@ -37,14 +37,6 @@ JavaScript (ES6+)
 JSON for data storage
 Local Storage API
 
-Project Structure
-
-![image](https://github.com/user-attachments/assets/2fc1a57e-51a1-4a00-ad73-86423fb09e50)
-
-
-
-
-
 Setup and Running
 
 Clone the repository
