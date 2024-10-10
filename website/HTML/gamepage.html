@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <!--Html code which links html to style sheet-->
+<head><link rel="stylesheet" type="text/css" href="../CSS/style.css"> 
+</head>
+<body>
+
+<!---This is html code for the naviagtion bar-->  
+<div id = "Navagation">
+        <p><a id="test" href="homepage.html">Home</a></p>
+        <p><a href="Loginpage.html">Login here</a></p>
+        <p><a href="Registerpage.html">Register here</a></p>
+        <p><a href="Leaderboard.html">View leaderboard here</a></p>
+        <p><a href="gamepage.html">Play now</a></p>
+</div> 
+
+    <!-- Text -->
+    <h1>Press start to begin</h1>
+
+    <div class="game-container">
+        <div id="player1"></div>
+        <div id="player2"></div>
+        <div id="ball"></div>
+        <div id="halfway-line"></div>
+        <div id="score">Player 1: 0     |     Player 2: 0</div>
+        <div id="game-over">Game Over</div>
+        <button id="start-btn">Start</button>
+        <button id="restart-btn" style="display: none;">Restart</button>
+    </div>
+
+   
+
+    <script src="../javascript/game.js"></script>
+    <script src="../javascript/localStorage.js"></script>
+
+</body>
+
+</html>
+

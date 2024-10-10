@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <!--Html code which links html to style sheet-->
+<head><link rel="stylesheet" type="text/css" href="../CSS/style.css"> 
+</head>
+<body>
+
+<!---This is html code for the naviagtion bar-->  
+<div id = "Navagation">
+        <p><a id="test" href="homepage.html">Home</a></p>
+        <p><a href="Loginpage.html">Login here</a></p>
+        <p><a href="Registerpage.html">Register here</a></p>
+        <p><a href="Leaderboard.html">View leaderboard here</a></p>
+        <p><a href="gamepage.html">Play now</a></p>
+</div>  
+ 
+
+<!--this is the code for the login page page, this includes input boxes and login button-->
+
+<div class="login-page">
+  <div class="form">
+      <form class="login-form" id="loginForm" action="gamepage.html">
+          <label for="loginUsername"></label>
+          <input type="text" id="loginUsername" name="loginUsername" placeholder="enter username" required>
+
+          <label for="loginPassword"></label>
+          <input type="password" id="loginPassword" name="loginPassword" placeholder="enter password" required>
+          <button type="button" onclick="loginUser()">Login</button>
+          <p class="message">Not registered? <a href="registerpage.html">Create an account</a></p>
+          <p class="message"> <a href="forgot-password.html">forgotten password?</a></p>
+
+          <div id="successMessage" style="color: green; display: none;">
+              Login successful!
+          </div>
+          <div id="errorMessage" style="color: red; display: none;">
+              Incorrect username or password. Please try again.
+          </div>
+          <div id="existmessage" style="color: red; display: none;">
+            username or email already exits please try again.
+        </div>
+      </form>
+  </div>
+</div>
+ 
+
+<script src="../javascript/localStorage.js"></script>
+<script src="../javascript/game.js"></script>
+</body>
+</html>
+
+
+﻿
+

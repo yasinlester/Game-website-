@@ -1,0 +1,330 @@
+
+  /* link for luckiest guy font*/
+  @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap'); 
+
+/*css code for background*/
+body {
+  background-image:url("../images/pong.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; 
+}
+
+/*css code for navigation bar*/
+#Navagation {
+  margin-left: 0px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family:luckiest guy;
+} 
+
+/*css code for homepage text h1*/
+h1 {
+  text-align: center;
+  font-family:luckiest guy;
+  color: white;
+  font-size: 80px;
+  position: relative;
+  display: block; 
+}
+
+/*css code for play button on home page*/
+#playbutton {
+  position: fixed;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin:  50px 714px;
+  cursor: pointer ;
+  font-family: luckiest guy;
+  
+}
+
+/*css code for design of the play button on homepage*/
+#playbutton {
+    background-color: green;
+    border: 3px solid black;
+    padding: 15px 32px; 
+  }
+
+
+/*css code for login button on home page*/
+#loginbutton {
+  position: fixed;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin:  125px 710px;
+  cursor: pointer;
+  font-family: luckiest guy;
+}
+
+/*css code for design of the login button on homepage*/
+#loginbutton {
+  background-color: green;
+  border: 3px solid black;
+  padding: 15px 32px; 
+} 
+
+ /*css code for Register button on home page*/
+#registerbutton {
+  position: fixed;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 200px 700px;
+  cursor: pointer; 
+  font-family: luckiest guy;
+}
+
+/*css code for design of the register button on homepage*/
+#registerbutton {
+  background-color: green;
+  border: 3px solid black;
+  padding: 15px 32px;
+} 
+
+/*css code for learderboard button on home page*/
+#leaderboardbutton {
+  position: fixed;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin:  275px 685px;
+  cursor: pointer;
+  font-family: luckiest guy;
+} 
+
+/*css code for design of the leaderboard button on homepage*/
+#leaderboardbutton {
+  background-color: green;
+  border: 3px solid black;
+  padding: 15px 32px;
+}
+
+/*css code for the login-page*/
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+} 
+
+/*css code for the form of the login-page*/
+.form {
+  position: relative;
+  z-index: 1;
+  background: white;
+  max-width: 360px;
+  margin: 0 auto 100px;
+ 
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+} 
+
+
+/*css vode for form div bloc for the login ,register and forgot password page*/
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: white;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+/*button for login ,register and forgot password page*/
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: green;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color:white;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+
+/*Form message CSS for login,register or forgot password button*/
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+
+/*css code for forgot password and create an account on the login page*/
+.form .message a {
+  color: green;
+  text-decoration: none;
+}
+
+/*leaderboard CSS code for the div box underneath the leaderboard*/
+
+ /*css for the div box on the game page*/
+
+ .game-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  height: 400px;
+  background-color: black;
+  border: 2px solid green;
+}
+
+
+#player1, #player2, #ball {
+  position: absolute;
+  width: 20px;
+  height: 100px;
+  background-color: white;
+}
+
+#player1 {
+  left: 10px;
+}
+
+#player2 {
+  right: 10px;
+}
+
+#ball {
+  background-color: green;
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+}
+
+#halfway-line {
+  position: absolute;
+  width: 2px;
+  height: 368px;
+  background-color: white;
+  left: 50%;
+  margin-top: 30px;
+  transform: translateX(-50%);
+}
+
+#score {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: red;
+  font-size: 20px;
+}
+
+#game-over {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: red;
+  font-size: 36px; 
+  display: none;
+  font-family: luckiest guy;
+}
+
+
+#start-btn{
+  position: fixed;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 30px;
+  margin:  120px 225px;
+  cursor: pointer ;
+  font-family: luckiest guy;
+  background-color: green;
+  border: 3px solid black;
+  padding: 15px 32px;
+ height: 100px;}
+
+ #restart-btn {  
+  position: fixed;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 30px;
+  margin:  250px 210px;
+  cursor: pointer ;
+  font-family: luckiest guy;
+  background-color: green;
+  border: 3px solid black;
+  padding: 15px 32px;
+ height: 100px;}
+
+
+ #successMessage {
+  display: none;
+  color: green;
+  margin-top: 10px;
+}
+
+
+
+
+
+#RankingTable {
+  margin: auto;
+}
+
+/* Style the table container */
+.table {
+  width: 500px;
+  height: 525px;
+  border: 3px solid green;
+  background-color: transparent;
+  padding: 10px;
+  margin: 10px;
+ position: absolute;
+ top: 25%;
+ left: 32.5%;
+transform: translate(-50% -50% )
+}
+
+/* Style the table header */
+.heading {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: transparent;
+  color: red;
+  border-bottom: 2px solid white;
+}
+
+/* Style the table cells */
+.cell {
+  padding: 10px;
+  text-align: center;
+}
+
+/* Style the score text in the header */
+.score {
+  color: white;
+}
+
+

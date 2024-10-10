@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <!--Html code which links html to style sheet-->
+<head><link rel="stylesheet"  href="../CSS/style.css"> 
+</head>
+<body>
+
+<!---This is html code for the naviagtion bar-->   
+<header> 
+<div id = "Navagation">
+        <p><a id="test" href="homepage.html">Home</a></p>
+        <p><a href="Loginpage.html">Login here</a></p>
+        <p><a href="Registerpage.html">Register here</a></p>
+        <p><a href="Leaderboard.html">View leaderboard here</a></p>
+        <p><a href="gamepage.html">Play now</a></p>
+</div>  
+
+<!--this is the code for the register page, this includes input boxes and create account button-->
+<header>
+   
+     
+  <div class="signup-box"></div> 
+  <div class="login-page">
+  <div class="form">
+    <form class="register-form" id="registrationForm">
+      <input type="email" id="email" placeholder="enter your email address" required/>
+      <input type="text" id="username" placeholder="create a username" required/>
+      <input type="password" id="password" placeholder="create a password" required/>
+      <input type="text" id="phone" placeholder="enter your phone number" required/>
+      <input type="number" id="age" placeholder="enter your age" required/>
+      <input type="text" id="dateOfBirth" placeholder="enter your date of birth" required/>
+      <select id="gender" required name="gender">
+        <option value="">Please select your gender</option>
+        <option value="female">Female</option>
+        <option value="male">Male</option>
+      </select>
+      <button type="submit" onclick="registerUser()">Register</button>
+      <p class="message">Have an account already? <a href="loginpage.html">Login here</a></p>
+
+      <div id="successMessage" style="display: none;">
+          <p>Registration successful! Press <a href="loginpage.html">here to login</a></p>
+      </div>
+          <div id="existmessage" style="color: red; display: none;">
+            username or email already exits please try again.
+        </div>
+      </div>
+      </div>
+      
+  </form>
+
+
+
+</header>
+
+
+
+
+
+</header>
+<script src="../javascript/localStorage.js"></script>
+<script src="../javascript/game.js"></script>
+</body>
+</html>
