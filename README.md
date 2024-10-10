@@ -1,6 +1,9 @@
 Velocity Pong Game Website
 Overview
 This project is a web-based implementation of "Velocity Pong", a twist on the classic Pong game, developed as part of the CST2120 coursework. It features an exciting game mechanic, user account management, and a ranking system, all implemented using HTML, CSS, and JavaScript.
+Video Demonstration
+Check out the game in action: Velocity Pong Demo
+Direct YouTube link: https://youtu.be/xDRJl0kLku0?si=_K8g7BsRpJkzf7lE
 Features
 1. Velocity Pong Game
 
@@ -14,12 +17,12 @@ Scoring system to track player performance
 
 User registration with data validation
 Secure login system
-User data stored in JSON format using HTML local storage
+User data is stored in JSON format using HTML local storage
 
 3. Ranking System
 
 Stores and displays top scores for all users
-Ranking page showing leaderboard
+A ranking page showing the leaderboard
 Data persistence using HTML local storage
 
 Technical Requirements
@@ -31,7 +34,7 @@ JSON for data storage
 Local Storage API
 
 Project Structure
-velocity-pong/
+Copyvelocity-pong/
 │
 ├── index.html
 ├── css/
@@ -43,6 +46,7 @@ velocity-pong/
 ├── assets/
 │   └── [game assets]
 └── README.md
+Setup and Running
 
 Clone the repository
 Open index.html in a modern web browser
@@ -62,11 +66,11 @@ Ensure all game logic is implemented in JavaScript
 Use HTML5 Canvas for rendering the game
 Implement smooth paddle movement and ball physics
 Gradually increase ball speed after each point scored
-Use HTML5 and CSS3 for structure and styling of the website
+Use HTML5 and CSS3 for the structure and styling of the website
 Implement form validation using JavaScript
 Store all user data and scores using HTML local storage in JSON format
 Keep code well-commented and maintain a clean, readable structure
-Avoid using external libraries or frameworks unless absolutely necessary
+Avoid using external libraries or frameworks unless necessary
 
 Notes for Submission
 
