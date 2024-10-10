@@ -38,9 +38,12 @@ JSON for data storage
 Local Storage API
 
 Project Structure
+
 Copyvelocity-pong/
 │
+|
 ├── index.html
+|
 ├── css/
 │   └── styles.css
 ├── js/
