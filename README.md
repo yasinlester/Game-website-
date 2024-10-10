@@ -1,14 +1,22 @@
 Velocity Pong Game Website
+
+
 Overview
 This project is a web-based implementation of "Velocity Pong", a twist on the classic Pong game, developed as part of the CST2120 coursework. It features an exciting game mechanic, user account management, and a ranking system, all implemented using HTML, CSS, and JavaScript.
+Project Grade: First Class (77/100)
 
+This project achieved a First Class grade, scoring 77 out of 100 (10 + 28 + 39), demonstrating excellence in implementation and meeting course requirements.
+Project Proposal
 
+The initial project proposal can be found in the file proposal.docx in the root directory of this repository. This document outlines the Velocity Pong game's original concept and planned features.
 Video Demonstration
+
+
 Check out the game in action: Velocity Pong Demo
 Direct YouTube link: https://youtu.be/xDRJl0kLku0?si=_K8g7BsRpJkzf7lE
+
+
 Features
-
-
 1. Velocity Pong Game
 
 A unique twist on the classic Pong game
@@ -21,12 +29,12 @@ Scoring system to track player performance
 
 User registration with data validation
 Secure login system
-User data is stored in JSON format using HTML local storage
+User data stored in JSON format using HTML local storage
 
 3. Ranking System
 
 Stores and displays top scores for all users
-A ranking page showing the leaderboard
+Ranking page showing leaderboard
 Data persistence using HTML local storage
 
 Technical Requirements
@@ -37,6 +45,20 @@ JavaScript (ES6+)
 JSON for data storage
 Local Storage API
 
+Project Structure
+Copyvelocity-pong/
+│
+├── index.html
+├── css/
+│   └── styles.css
+├── js/
+│   ├── velocity-pong.js
+│   ├── user-management.js
+│   └── ranking.js
+├── assets/
+│   └── [game assets]
+├── proposal.docx
+└── README.md
 Setup and Running
 
 Clone the repository
@@ -57,11 +79,11 @@ Ensure all game logic is implemented in JavaScript
 Use HTML5 Canvas for rendering the game
 Implement smooth paddle movement and ball physics
 Gradually increase ball speed after each point scored
-Use HTML5 and CSS3 for the structure and styling of the website
+Use HTML5 and CSS3 for structure and styling of the website
 Implement form validation using JavaScript
 Store all user data and scores using HTML local storage in JSON format
 Keep code well-commented and maintain a clean, readable structure
-Avoid using external libraries or frameworks unless necessary
+Avoid using external libraries or frameworks unless absolutely necessary
 
 Notes for Submission
 
@@ -69,3 +91,6 @@ Include screenshots of the Velocity Pong game in action, as well as other pages 
 Provide a clear description of the game mechanics, especially the increasing ball speed feature
 Explain how the difficulty progression enhances the gaming experience
 Ensure all code is original or properly attributed if adapted from course materials
+
+Disclaimer
+This project is for educational purposes. Ensure all assets used are either original or used with appropriate permissions.
