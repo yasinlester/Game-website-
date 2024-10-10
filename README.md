@@ -39,20 +39,11 @@ Local Storage API
 
 Project Structure
 
-Copyvelocity-pong/
-│
-|
-├── index.html
-|
-├── css/
-│   └── styles.css
-├── js/
-│   ├── velocity-pong.js
-│   ├── user-management.js
-│   └── ranking.js
-├── assets/
-│   └── [game assets]
-└── README.md
+![image](https://github.com/user-attachments/assets/94d35431-9c63-4f2b-b030-ebb69ee14ff2)
+
+
+
+
 Setup and Running
 
 Clone the repository
