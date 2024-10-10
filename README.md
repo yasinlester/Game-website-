@@ -1,10 +1,14 @@
 Velocity Pong Game Website
 Overview
 This project is a web-based implementation of "Velocity Pong", a twist on the classic Pong game, developed as part of the CST2120 coursework. It features an exciting game mechanic, user account management, and a ranking system, all implemented using HTML, CSS, and JavaScript.
+
+
 Video Demonstration
 Check out the game in action: Velocity Pong Demo
 Direct YouTube link: https://youtu.be/xDRJl0kLku0?si=_K8g7BsRpJkzf7lE
 Features
+
+
 1. Velocity Pong Game
 
 A unique twist on the classic Pong game
