@@ -31,7 +31,7 @@ JSON for data storage
 Local Storage API
 
 Project Structure
-Copyvelocity-pong/
+velocity-pong/
 │
 ├── index.html
 ├── css/
@@ -43,7 +43,6 @@ Copyvelocity-pong/
 ├── assets/
 │   └── [game assets]
 └── README.md
-Setup and Running
 
 Clone the repository
 Open index.html in a modern web browser
