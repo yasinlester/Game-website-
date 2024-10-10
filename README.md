@@ -39,7 +39,8 @@ Local Storage API
 
 Project Structure
 
-![image](https://github.com/user-attachments/assets/94d35431-9c63-4f2b-b030-ebb69ee14ff2)
+![image](https://github.com/user-attachments/assets/2fc1a57e-51a1-4a00-ad73-86423fb09e50)
+
 
 
 
